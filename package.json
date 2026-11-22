@@ -1,0 +1,54 @@
+{
+  "name": "langchain-crowllm",
+  "version": "0.1.0",
+  "description": "CrowLLM chat model for LangChain.js: an OpenAI-compatible gateway with one key for every model.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "langchain",
+    "crowllm",
+    "llm",
+    "gateway",
+    "openai-compatible"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@langchain/core": ">=0.3.0",
+    "@langchain/openai": ">=0.3.0"
+  },
+  "devDependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/openai": "^0.3.0"
+  },
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowwdev/crowllm-langchain.git"
+  },
+  "homepage": "https://crowllm.com",
+  "bugs": {
+    "url": "https://github.com/crowwdev/crowllm-langchain/issues"
+  },
+  "author": "CrowLLM",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
