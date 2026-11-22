@@ -10,6 +10,12 @@ CrowLLM is an OpenAI-compatible gateway: one endpoint (`https://crowllm.com/v1`)
 npm install langchain-crowllm @langchain/core @langchain/openai
 ```
 
+Until the npm release is out, install the tagged build straight from GitHub:
+
+```bash
+npm install github:crowwdev/crowllm-langchain#v0.1.0 @langchain/core @langchain/openai
+```
+
 ## Usage
 
 ```js
